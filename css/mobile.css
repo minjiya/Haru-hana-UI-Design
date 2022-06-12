@@ -58,7 +58,6 @@
 .main__images {
     width: 100%;
     position: relative;
-    border: 1px solid green;
 }
 .main__images img {
     width: 55vw;
@@ -135,18 +134,18 @@
     position: absolute;
     bottom: -100px;
     right: 5%;
-    /* border: 1px solid green; */
 }
 .store__images img {
     width: 30vw;
     max-width: 150px;
-    /* border: 1px solid blueviolet; */
     margin-bottom: 2%;
 }
 
 /* Design and Style Guide  */
 .project__style .inner {
     flex-direction: column;
+}
+.project__style .inner div{
     justify-content: center;
     text-align: center;
 }
