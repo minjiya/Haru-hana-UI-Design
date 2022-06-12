@@ -1,0 +1,332 @@
+/* 프로젝트 개요 */
+.project {
+    width: 100%;
+    background: rgb(235,246,255);
+    /* background-color: salmon; */
+    background: linear-gradient(180deg, rgb(232, 244, 255) 0%, rgba(235,246,255,1) 30%, rgba(248,248,248,1) 65%, rgba(249,249,249,1) 100%);
+}
+
+/* MAIN PAGE */
+.project__main {
+    background-image: url("../images/background_pattern.png");
+    background-repeat: repeat-x;
+    background-size: 95%;
+}
+.project__main .inner{
+    position: relative;
+    display: flex;
+}
+.main__intro {
+    width: 40%;
+}
+.main__intro .intro__title {
+    padding-top: 50px;
+}
+.main__intro .intro__title img {
+    width: 242px;
+}
+.main__intro .intro__title p {
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 1.6;
+}
+.main__intro .intro__about {
+    margin-top: 90px;
+}
+.main__intro .intro__about .role {
+    margin-top: 50px;
+}
+.main__intro .intro__about .summary__title {
+    color: #1495DD;
+    font-weight: 700;
+}
+.main__intro .intro__about .summary__contents {
+    font-size: 14px;
+    line-height: 1.8;
+}
+.main__images {
+    width: 60%;
+    position: relative;
+}
+.main__images img {
+    width: 510px;
+}
+.main__images .p1 {
+    position: relative;
+    top: 200px;
+    right: -120px;
+    transform: rotate(-8deg);
+}
+.main__images .p2 {
+    position: relative;
+    top: 160px;
+    right: -30px;
+    transform: rotate(4deg);
+}
+
+
+
+
+/* ABOUT SERVICE */
+.project__service {
+    position: relative;
+}
+.project__service .inner {
+    display: flex;
+}
+.project__service .sub_title {
+    margin-top: 145px;
+    margin-bottom: 55px;
+    color: #75C2FF;
+}
+.service__chat {
+    width: 50%;
+}
+.service__chat .chat {
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.16) 0px 3px 6px;
+    padding: 8px 0;
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 10px 0;
+}
+.service__chat .chat span {
+    font-size: 18px;
+    color: #1495DD;
+    font-weight: 700;
+}
+.service__chat .chat_left {
+    border-radius: 0 50px 50px 60px;
+    width: 65%;
+    margin-bottom: 40px;
+}
+.service__chat .chat_left p {
+    padding-left: 50px;
+}
+.service__chat .chat_right {
+    border-radius: 50px 0 60px 50px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    background-color: #F6FBFF;
+}
+.service__chat .chat:nth-child(2) {
+    margin-left: 55%;
+    padding: 5px 0 5px 50px;
+    border-radius: 50px 0 50px 50px;
+}
+
+.service__store {
+    position: relative;
+    display: flex;
+    width: 50%;
+    bottom: 65px;
+}
+.store__phone {
+    width: 70%;
+}
+.store__phone img {
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: rgba(0,0,0,0.09) 1px 1px 6px;
+    border-radius: 40px;
+}
+.store__images {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.store__images img {
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.16) 0px 3px 6px;
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+/* Design and Style Guide  */
+.project__style {
+    position: relative;
+    padding-bottom: 100px;
+}
+.project__style .sub_title {
+    margin-top: 130px;
+    margin-bottom: 50px;
+    color: #ccc;
+}
+.project__style .inner {
+    display: flex;
+}
+.style__bi {
+    width: 40%;
+}
+.style__bi .title {
+    margin-bottom: 25px;
+}
+.style__bi img {
+    width: 204px;
+    margin-bottom: 50px;
+}
+
+.style__icon {
+    width: 40%;
+}
+.style__icon .title {
+    margin-bottom: 25px;
+}
+.style__icon .app {
+    width: 82px;
+    margin-bottom: 50px;
+}
+.style__icon .menu {
+    position: relative;
+    left: -20px;
+    width: 224px;
+    margin-bottom: 20px;
+}
+
+.style__guide {
+    width: 20%;
+}
+.style__guide .title{
+    margin-bottom: 25px;
+}
+
+.style__guide .guide__color {
+    margin-bottom: 50px;
+}
+.style__guide .guide__color .color__type {
+    display: flex;
+    align-items: center;
+}
+.style__guide .guide__color .color__type .color {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+
+/* UI DESIGN */
+.design {
+    background-color: #fff;
+    width: 100%;
+}
+.design .sub_title {
+    margin-top: 45px;
+    margin-bottom: 50px;
+    color: #E6E6E6;
+}
+.design .title,
+.design .contents {
+    text-align: center;
+}
+.design .title {
+    margin-bottom: 25px;
+}
+
+/* 학습화면 디자인 */
+.study_page {
+    position: relative;
+    padding-bottom: 130px;
+}
+.study_cover {
+    
+}
+.study_cover img {
+    width: 490px;
+    margin: 85px auto 0;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.16) 0px 3px 6px;
+}
+
+/* ai 리포트  */
+.report_page {
+    position: relative;
+    padding-bottom: 130px;
+}
+.report_page .contents {
+    margin-bottom: 80px;
+}
+.report_page div {
+    display: flex;
+    justify-content: center;
+    left: 5px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.report_page div .contents {
+    position: absolute;
+}
+.report_page div img {
+    width: 450px;
+}
+.page__1 .contents,
+.page__3 .contents {
+    right: 750px;
+    text-align: right;
+    top: 15%;
+}
+.page__2 .contents,
+.page__4 .contents {
+    left: 730px;
+    text-align: left;
+    top: 12%;
+}
+
+/* 코딩게임  */
+.game_page {
+    position: relative;
+    padding-bottom: 100px;
+}
+.game_page .game__cover {
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+    background-color: #EEF8FF;
+}
+.game_page .game__cover .inner {
+    
+}
+.game_page .game__cover .game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.game_page .game__cover .game img {
+    width: 215px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.16) 2px 2px 3px;
+}
+
+/* 공통화면 */
+.common_page {
+    position: relative;
+    padding-bottom: 120px;
+}
+.common_page .title {
+
+}
+.common_page .contents {
+    margin-bottom: 90px;
+}
+.common__cover {
+    position: relative;
+}
+.common__cover .line {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.common__cover .line img {
+    width: 349px;
+}
+.common__cover .line1 {
+    right: 30px;
+}
+.common__cover .line2 {
+    left: 30px;
+}
