@@ -296,6 +296,7 @@
 /* ai 리포트  */
 .report_page {
     position: relative;
+    padding-top: 80px;
     padding-bottom: 130px;
 }
 .report_page .contents {
