@@ -295,6 +295,7 @@
 
 /* ai 리포트  */
 .report_page {
+    /* overflow: hidden; */
     position: relative;
     padding-top: 80px;
     padding-bottom: 130px;
@@ -315,6 +316,30 @@
 .report_page div img {
     width: 450px;
 }
+/* 스크롤매직 */
+.report_page .page__1 .s-event,
+.report_page .page__3 .s-event {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: 0.9s;
+}
+.report_page .page__1 .s-event.visible,
+.report_page .page__3 .s-event.visible {
+    opacity: 1;
+    transform: none;
+}
+.report_page .page__2 .s-event,
+.report_page .page__4 .s-event {
+    opacity: 0;
+    transform: translateX(20px);
+    transition: 0.9s;
+}
+.report_page .page__2 .s-event.visible,
+.report_page .page__4 .s-event.visible {
+    opacity: 1;
+    transform: none;
+}
+
 .page__1 .contents,
 .page__3 .contents {
     right: 750px;
@@ -346,7 +371,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .game_page .game__cover .game img {
     width: 215px;
@@ -354,6 +379,7 @@
     border-radius: 10px;
     box-shadow: rgba(0,0,0,0.16) 2px 2px 3px;
 }
+
 
 /* 공통화면 */
 .common_page {
