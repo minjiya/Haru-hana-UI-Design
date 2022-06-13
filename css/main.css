@@ -255,6 +255,7 @@
 }
 .study_cover {
     position: relative;
+    width: 980px;
 }
 .study_cover img {
     width: 490px;
