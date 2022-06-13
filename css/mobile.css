@@ -169,7 +169,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 50%;
 }
 .style__guide .guide__color .color__type {
@@ -182,13 +181,32 @@
     height: 40px;
     border-radius: 20px;
 }
+.style__guide .guide__color .color__type .contents {
+    text-align: left;
+}
 
 
 /* UI DESIGN */
 /* 학습화면 디자인 */
 .study_cover img {
     width: 70vw;
-    margin: 50px auto 0;
+    margin: 50px auto 30px;
+}
+.study_cover .swiper-button-next,
+.study_cover .swiper-button-prev {
+    margin-top: 0vh;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.study_cover .swiper-button-next {
+    right: 1%;
+}
+.study_cover .swiper-button-prev {
+    left: 1%;
+}
+.study_cover .swiper-pagination {
+    bottom: 0px !important;
 }
 
 /* ai 리포트  */

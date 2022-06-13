@@ -55,13 +55,13 @@
     position: relative;
     top: 200px;
     right: -120px;
-    transform: rotate(-8deg);
+    /* transform: rotate(-8deg); */
 }
 .main__images .p2 {
     position: relative;
     top: 160px;
     right: -30px;
-    transform: rotate(4deg);
+    /* transform: rotate(4deg); */
 }
 
 
@@ -90,6 +90,17 @@
     line-height: 1.8;
     margin: 10px 0;
 }
+/* 스크롤매직 */
+.service__chat .s-event {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.6s;
+}
+.service__chat .s-event.visible {
+    opacity: 1;
+    transform: none;
+}
+
 .service__chat .chat span {
     font-size: 18px;
     color: #1495DD;
@@ -143,6 +154,17 @@
     box-shadow: rgba(0,0,0,0.16) 0px 3px 6px;
     margin: 0 auto;
     margin-right: 0;
+}
+/* 스크롤매직 */
+.service__store .s-event {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: 0.5s;
+    /* transition-delay: 0.5s; */
+}
+.service__store .s-event.visible {
+    opacity: 1;
+    transform: none;
 }
 
 /* Design and Style Guide  */
@@ -232,14 +254,43 @@
     padding-bottom: 130px;
 }
 .study_cover {
-    
+    position: relative;
 }
 .study_cover img {
     width: 490px;
-    margin: 85px auto 0;
+    margin: 85px auto;
     border-radius: 10px;
     box-shadow: rgba(0,0,0,0.16) 0px 3px 6px;
 }
+.study_cover .swiper-button-next,
+.study_cover .swiper-button-prev {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.16) 0px 3px 6px;
+    color: #0394E5;
+}
+.study_cover .swiper-button-next::after,
+.study_cover .swiper-button-prev::after {
+    display: none;
+}
+.study_cover .swiper-button-next {
+    right: 18% ;
+}
+.study_cover .swiper-button-prev {
+    left: 18% ;
+}
+.study_cover .swiper-pagination {
+    position: absolute;
+    bottom: 50px !important;
+}
+.swiper .swiper-pagination-bullet {
+    background-color: #0394E5;
+}
+
+
 
 /* ai 리포트  */
 .report_page {
