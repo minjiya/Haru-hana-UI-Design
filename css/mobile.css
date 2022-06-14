@@ -65,30 +65,13 @@
 }
 .main__images .p1 {
     top: 0px;
-    /* transform: rotate(-8deg); */
-    animation: slideInTop 1s;
+    transform: rotate(-8deg);
 }
 .main__images .p2 {
     top: -25px;
-    /* transform: rotate(4deg); */
-    animation: slideInBottom 1s;
+    transform: rotate(4deg);
 }
-@keyframes slideInTop {
-    0% {
-        transform: translateX(30px) rotate(0deg);
-    }
-    100% {
-        transform: translateX(auto) rotate(-8deg);
-    }
-}
-@keyframes slideInBottom {
-    0% {
-        transform: translateX(30px) rotate(0deg);
-    }
-    100% {
-        transform: translateX(auto) rotate(4deg);
-    }
-}
+
 
 
 /* ABOUT SERVICE */
