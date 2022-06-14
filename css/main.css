@@ -365,7 +365,7 @@
     background-color: #EEF8FF;
 }
 .game_page .game__cover .inner {
-    
+
 }
 .game_page .game__cover .game {
     display: flex;
@@ -380,7 +380,7 @@
     box-shadow: rgba(0,0,0,0.16) 2px 2px 3px;
 }
 .game_page .game__cover .game img:hover {
-    transform: scale(1.8);
+    transform: scale(1.5) translateY(-10px);
     transition: .6s;
 }
 
@@ -405,6 +405,10 @@
 }
 .common__cover .line img {
     width: 349px;
+}
+.common__cover .line img:hover {
+    transform: scale(1.1);
+    transition: .6s;
 }
 .common__cover .line1 {
     right: 30px;
