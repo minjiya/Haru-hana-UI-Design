@@ -38,3 +38,14 @@ new Swiper(".mySwiper", {
     },
   });
 
+//모바일 ai리포트 클릭시 텍스트 보여짐
+// const aiImage = document.querySelector('.page img')
+
+// function showText () {
+//   const ai = document.querySelector(".page .contents")
+//   ai.style.display = 'block';
+// }
+
+// aiImage.addEventListener("click", showText())
+
+

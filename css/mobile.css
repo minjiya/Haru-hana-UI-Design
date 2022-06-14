@@ -218,6 +218,7 @@
 
 /* ai 리포트  */
 .report_page {
+    position: relative;
     padding-top: 50px;
     padding-bottom: 100px;
 }
@@ -230,15 +231,40 @@
 .report_page div img {
     width: 75vw;
 }
-.report_page div img:hover {
-    filter: grayscale(30%);
+.page {
+    position: relative;
+    width: 100%;
+    height: auto;
 }
-.page__1 .contents,
-.page__3 .contents,
-.page__2 .contents,
-.page__4 .contents {
+.page:hover .contents {
+    opacity: 1;
+    z-index: 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page:hover img {
+    filter: grayscale(60%) opacity(50%) blur(2px) ;
+    z-index: 11;
+}
+.page .contents {
+    opacity: 0;
     display: none;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: normal;
+    font-size: 11px;
+    color: #666;
+    font-weight: 700;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
 }
+
 
 /* 코딩게임  */
 .game_page {
