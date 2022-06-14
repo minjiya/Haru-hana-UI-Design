@@ -52,7 +52,7 @@
     font-size: 12px;
 }
 .main__intro .intro__about .summary__contents {
-    font-size: 10px;
+    font-size: 11px;
 }
 .main__images {
     width: 100%;
@@ -77,6 +77,9 @@
 /* ABOUT SERVICE */
 .project__service .inner {
     flex-direction: column;
+}
+.project__service .sub_title {
+    margin-top: 50px;
 }
 .service__chat {
     position: relative;
@@ -226,6 +229,9 @@
 }
 .report_page div img {
     width: 75vw;
+}
+.report_page div img:hover {
+    filter: grayscale(30%);
 }
 .page__1 .contents,
 .page__3 .contents,

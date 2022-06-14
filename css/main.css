@@ -34,14 +34,14 @@
     margin-top: 90px;
 }
 .main__intro .intro__about .role {
-    margin-top: 50px;
+    margin-top: 35px;
 }
 .main__intro .intro__about .summary__title {
     color: #1495DD;
     font-weight: 700;
 }
 .main__intro .intro__about .summary__contents {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.8;
 }
 .main__images {
@@ -49,7 +49,7 @@
     position: relative;
 }
 .main__images img {
-    width: 510px;
+    width: 530px;
 }
 .main__images .p1 {
     position: relative;
@@ -380,7 +380,7 @@
     box-shadow: rgba(0,0,0,0.16) 2px 2px 3px;
 }
 .game_page .game__cover .game img:hover {
-    transform: scale(2);
+    transform: scale(1.8);
     transition: .6s;
 }
 
