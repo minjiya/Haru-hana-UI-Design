@@ -9,5 +9,5 @@
 + 디자인: 4개월 / 100%
   + Adobe Photoshop, Illustrator 사용 
   + UI, BI, 코딩게임 UI, 메뉴 및 배지 아이콘, 앱아이콘 및 앱소개이미지 제작
-+ 퍼블리싱: 2개월 / 30%
++ 퍼블리싱: 2개월 / 40%
   + HTML, SCSS, React 사용   
