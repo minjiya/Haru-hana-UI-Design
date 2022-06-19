@@ -20,7 +20,7 @@
 기획, 디자인, 퍼블리싱 100%
 -   작업 년도 : 2022.06
 -   작업 기간 : 5일
--   사용 스킬 : <img src="https://img.shields.io/badge/HTML5-red?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/Sass-c93691?style=flat-square&logo=Sass&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-yellow?style=flat-square&logo=JavaScript&logoColor=white"/>
+-   사용 스킬 : <img src="https://img.shields.io/badge/HTML5-red?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-c93691?style=flat-square&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-yellow?style=flat-square&logo=JavaScript&logoColor=white"/>
 -   사용 그래픽 :  <img src="https://img.shields.io/badge/Adobe Photoshop-navy?style=flat-square&logo=Adobe Photoshop&logoColor=white"/> <img src="https://img.shields.io/badge/Adobe XD-e80e94?style=flat-square&logo=Adobe XD&logoColor=white"/> 
 ###  Contents
 1.  프로젝트 개요
