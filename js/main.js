@@ -38,3 +38,27 @@ new Swiper(".mySwiper", {
     },
   });
 
+//코딩겜 이미지 모달
+const open = () => {
+  document.querySelector(".modal").classList.remove("hidden");
+}
+
+const close = () => {
+  document.querySelector(".modal").classList.add("hidden");
+}
+
+document.querySelector(".game__cover .inner").addEventListener("click", open);
+document.querySelector(".closeBtn").addEventListener("click", close);
+document.querySelector(".bg").addEventListener("click", close);
+
+
+//코딩 슬라이드 스와이퍼
+new Swiper(".modalSwiper", {
+  slidesPerView : 'auto',
+  loop: true,
+  navigation: {
+    nextEl: ".modalBox .swiper-button-next",
+    prevEl: ".modalBox .swiper-button-prev",
+  },
+});
+

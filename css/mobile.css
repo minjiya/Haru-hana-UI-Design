@@ -298,3 +298,28 @@
 .common__cover .line2 {
     left: 15px;
 }
+
+/* 코딩겜 모달 */
+.modalBox {
+    width: 100vw;
+    padding: 30px;
+}
+.modalBox .swiper-wrapper .swiper-slide img {
+    margin-left: 6%;
+    width: 88%;
+}
+
+.game__cover .swiper-button-next,
+.game__cover .swiper-button-prev {
+    top: 46%;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.game__cover .swiper-button-next {
+    right: 2%;
+}
+
+.game__cover .swiper-button-prev {
+    left: 2% ;
+}
